@@ -1,0 +1,21 @@
+* {
+	font-weight: 300;
+	font-family: Lato;
+	line-height: 1.5;
+}
+
+body {
+	width: 720px;
+	max-width: 720px;
+	padding: 54px;
+}
+
+li {
+	display: inline;
+}
+
+
+#main-header {
+	color: #dd0000;
+}
+
