@@ -12,16 +12,13 @@ h3 {
 
 h4 {
 	font-family: roboto;
-	margin: 0 auto;
-	padding: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	text-align: center;
 }
 
 p {
 	font-family: roboto;
 	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 img {
@@ -31,13 +28,20 @@ img {
 
 div {
 	padding: 14px;
-	margin-top: 30px;
+	margin-top: 0px;
 	margin-bottom: 30px;
-	text-align: center;
+	text-align: center;	
 }
 
-#navbar {
+.navigation {
+	display: inline-block;
 	text-align: center;
+	font-family: roboto;
+	padding: 6px;
+}
+
+#nav1 {
+	margin: 0 auto;
 }
 
 #site-header {
@@ -61,5 +65,11 @@ div {
 
 #aspen-block {
 	background-color: #C4DEFC;
+	margin-bottom: 0;
 
 }
+
+#footer {
+	margin: 0 auto;
+}
+
