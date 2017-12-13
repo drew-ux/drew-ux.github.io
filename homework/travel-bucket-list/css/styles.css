@@ -1,0 +1,65 @@
+h1 {
+	font-family: roboto;
+}
+
+h2 {
+	font-family: roboto;
+}
+
+h3 {
+	font-family: roboto;
+}
+
+h4 {
+	font-family: roboto;
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+p {
+	font-family: roboto;
+	text-align: left;
+}
+
+img {
+	max-width: 500px;
+	max-height: 500px;
+}
+
+div {
+	padding: 14px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#navbar {
+	text-align: center;
+}
+
+#site-header {
+	background-color: #08CA9F;
+	padding: 24px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+
+}
+
+#maui-block {
+	background-color: #C4DEFC;
+	
+}
+
+#reykjavik-block {
+	background-color: #C2F2E3;
+	
+}
+
+#aspen-block {
+	background-color: #C4DEFC;
+
+}
