@@ -1,0 +1,41 @@
+#wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+#header {
+	height: 50px;
+	background-color: black;
+	grid-column: 1 / 4;
+ 	grid-row: 1 / 1;
+ 
+}
+
+#header-title {
+	font-family: avenir;
+	color: white;
+	line-height: 9px;
+	padding-left: 1%;
+	letter-spacing: .5px;
+}
+
+#image-box {
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	grid-column: 1 / 4;
+	height: 240px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#start-button {
+	grid-column: 2 / 3;
+	justify-content: center;
+	text-align: center;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+
+}
