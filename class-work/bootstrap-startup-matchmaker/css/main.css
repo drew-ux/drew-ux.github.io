@@ -10,6 +10,11 @@ body {
 	margin: auto;
 }
 
+.navbar {
+	background: yellow;
+
+}
+
 h1 {
 	font-size: 2em;
 	line-height: 1;
