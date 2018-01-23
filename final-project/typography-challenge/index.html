@@ -3,26 +3,41 @@
 	<head>
 		<title>Typography Challenge</title>
 
-		        <link rel="stylesheet" type="text/css" href="css/normalize.css">
-	            <link rel="stylesheet" type="text/css" href="css/style.css">
+		        <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	            <link rel="stylesheet" type="text/css" href="css/style.css"/>	
+	            <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
 
 	<body>
+		<header>
+			<h2 id="header-title">Typography Challenge</h2>
+		</header>
 
 		<div id="wrapper">
-			<div id="header">
-				<h2 id="header-title">Typography Challenge</h2>
-			</div>
 
 			<div id="image-box">
-				<h2 class="heading">How it works:</h2>
-				<p class="body-text">When you begin, a picture will appear in this space. Your goal is to correctly identify the typeface in the picture. Good luck!</p>
+				<div id="welcome-text">
+					<h4 class="heading">How it works:</h4>
+					<p class="body-text">When you begin, a picture will appear in this space. Your goal is to correctly identify the typeface in the picture. Good luck!</p>
+				</div>
 			</div>
 
-			<div id="start-button">
-				<h3 class="button-text">Let's go!</h3>
+			<a class="waves-effect waves-light btn" id="start-button">START</a>
+			
+			<div id="btn-grid">
+				<a class="waves-effect waves-light btn quiz-btn" id="btn-1">button 1</a>
+				<a class="waves-effect waves-light btn quiz-btn" id="btn-2">button 2</a>
+				<a class="waves-effect waves-light btn quiz-btn" id="btn-3">button 3</a>
+				<a class="waves-effect waves-light btn quiz-btn" id="btn-4">button 4</a>
 			</div>
+
 		</div>
+
+
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 
 	</body>
 </html>
