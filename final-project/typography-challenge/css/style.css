@@ -3,15 +3,16 @@
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(9, 1fr);
 	grid-gap: 20px;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 6%;
+	margin-right: 6%;
 }
 
 
-header {
+#page-header {
 	height: 50px;
 	background-color: black;
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 #header-title {
@@ -19,27 +20,30 @@ header {
 	color: white;
 	padding-left: 1%;
 	letter-spacing: .5px;
-	font-size: 24px;
+	font-size: 20px;
 	display: inline-block;
 	margin: 0 auto;
-	line-height: 2.2;
+	line-height: 2.4;
 
 }
 
 #image-box {
+	
 	display: grid;
-	border-width: 2px;
-	border-color: black;
-	border-style: solid;
 	justify-self: center;
+	justify-content: center;
+	align-self: top;
 	grid-column: 1 / 5;
 	grid-row: 1 / 3;
 	height: 100%;
+	background-color: #f7f7f7;
+
 
 
 }
 
 #start-button {
+	
 	grid-column: span 4;
 	grid-row: 3;
 	justify-self: center; 
@@ -66,7 +70,10 @@ header {
 	max-width: 90%;
 	max-height: 90%;
 	display: block;
-	margin: auto;
+	align-self: center;
+	margin: 0 auto;
+	margin-top: 20%;
+
 
 }
 
@@ -83,12 +90,12 @@ header {
 
 #btn-grid {
 	
-	width: 100%;
+	min-width: 280px;
 	grid-column: 1 / 5;
 	grid-row: 3 / 5;
 	grid-gap: 8px;
 	align-self: top;
-	align-content: top;
+	justify-self: center;
 	/*
 	don't forget to change display
 	*/
@@ -98,15 +105,33 @@ header {
 
 
 
-@media screen and (min-width: 400px) { 
+@media screen and (min-width: 600px) { 
+	
+
 	#btn-grid {
 		
-		grid-template-columns: repeat(2, 1fr);
+		
 		grid-gap: 20px;
-		grid-row: 4 / 5;
-		grid-column: 1 / 5;
+		grid-row: 1;
+		grid-column: 2;
 		display: none;
+		justify-self: left;
+		min-width: 280px;
+		
 	}
+	
+
+	#wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		grid-gap: 20px;
+		margin-left: 10%;
+		margin-right: 10%;
+
+	}
+
+	/*
 
 	#btn-1 {
 		justify-self: right;
@@ -115,21 +140,39 @@ header {
 	#btn-3 {
 		justify-self: right;
 	}
+	*/
+
+	
 
 	#image-box {
-	display: grid;
-	border-width: 2px;
-	border-color: black;
-	border-style: solid;
-	justify-self: center;
-	grid-column: 1 / 5;
-	grid-row: 1 / 4;
+
+	justify-self: right;
+	grid-column: 1;
+	grid-row: 1;
 	height: 100%;
 	width: 90%;
+	max-width: 400px;
+	margin-right: 20px;
+	margin: 0 auto;
 	}
 
 	#start-button {
-		grid-row: 4;
+		grid-row: 1;
+		grid-column: 2;
+		align-self: center;
+		justify-self: left;
+	}
+
+	#header-title {
+		margin-left: 1.5%;
+		font-size: 22px;
+		line-height: 2.2;
+
+	}
+
+	#page-header {
+		text-align: left;
+		margin-bottom: 40px;
 	}
 }
 
