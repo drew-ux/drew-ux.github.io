@@ -155,6 +155,7 @@ $('#next-button').click(function() {
 
 		$('.correcttext').replaceWith('<div class="correcttext typeface3text"><h4 class="heading">The end!</h4><p class="body-text">Thanks for taking the Typography Challenge. Typography is is another way for designers to convey emotion, context, and delight. I hope that you have been inspired by some of these examples.</p></div>');
 		$('#btn-grid').hide();
+		$('#reset-button').css("display", "block");
 	}
 
 
