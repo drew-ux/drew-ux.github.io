@@ -1,4 +1,4 @@
-/*
+	/*
 
 FONT FAMILY HELPERS :)
 font-family: 'Oswald', sans-serif;
@@ -33,9 +33,7 @@ a {
 .nav {
 	align-self: center;
 	justify-content: center;
-	text-align: right;
-
-
+	text-align: right; 
 }
 
 .wrapper {
@@ -45,5 +43,5 @@ a {
 }
 
 .hero-banner {
-	background-image: url('img/coworking.jpg');
+	background-image: url('../img/coworking.jpg');
 }

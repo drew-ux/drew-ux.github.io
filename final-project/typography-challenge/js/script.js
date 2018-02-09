@@ -104,19 +104,19 @@ function correctChange() {
 	if ($('img').is('#quiz1')) {
 
 		$('#next-button').css("display", "block");
-		$('.card-image').replaceWith('<div class="correcttext typeface1text"><h4 class="heading">Correct!</h4><p class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>');
+		$('.card-image').replaceWith('<div class="correcttext typeface1text"><h4 class="heading"><i class="em em-tada" id="icon-size"></i>Correct!<i class="em em-tada" id="icon-size"></i></h4><p class="body-text">Congratulations! You really know your stuff! This definitely isn\'t placeholder text. What you\'re reading here is very interesting and informative.</p>');
 	
 
 	} else if ($('img').is('#quiz2')) {
 
 		$('#next-button').css("display", "block");
-		$('.card-image').replaceWith('<div class="correcttext typeface2text"><h4 class="heading">Correct!</h4><p class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>');
+		$('.card-image').replaceWith('<div class="correcttext typeface2text"><h4 class="heading"><i class="em em-tada" id="icon-size"></i>Correct!<i class="em em-tada" id="icon-size"></i></h4><p class="body-text">Congratulations! You really know your stuff! This definitely isn\'t placeholder text. What you\'re reading here is very interesting and informative.</p></div>');
 		
 
 	} else if ($('img').is('#quiz3')) {
 
 		$('#next-button').css("display", "block");
-		$('.card-image').replaceWith('<div class="correcttext typeface3text"><h4 class="heading">Correct!</h4><p class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>');
+		$('.card-image').replaceWith('<div class="correcttext typeface3text"><h4 class="heading"><i class="em em-tada" id="icon-size"></i>Correct!<i class="em em-tada" id="icon-size"></i></h4><p class="body-text">Congratulations! You really know your stuff! This definitely isn\'t placeholder text. What you\'re reading here is very interesting and informative.</p></div>');
 
 	} 
 
@@ -160,7 +160,7 @@ $('#next-button').click(function() {
 
 
 		/*
-		$('.correcttext'2).replaceWith('<div class="card-image"><img class="quiz-img" id="quiz4" src="img/typeface4.jpg"></div>');
+		$('.correcttext').replaceWith('<div class="card-image"><img class="quiz-img" id="quiz4" src="img/typeface4.jpg"></div>');
 		$('#btn-1').text(quizObj[3].choices[0]).addClass('incorrect');
 		$('#btn-2').text(quizObj[3].choices[1]).addClass('incorrect');
 		$('#btn-3').text(quizObj[3].choices[2]).addClass('incorrect');
@@ -168,5 +168,11 @@ $('#next-button').click(function() {
 		*/
 
 
+
+});
+
+$('#reset-button, #header-title').click( function() {
+
+	location.reload();
 
 });

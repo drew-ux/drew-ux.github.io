@@ -60,6 +60,23 @@
 
 }
 
+#reset-button {
+	
+	grid-column: span 4;
+	grid-row: 2;
+	justify-self: center; 
+	justify-content: center;
+	text-align: center;
+	background-color: black;
+	min-width: 180px;
+	max-width: 220px;
+	/*
+	don't forget to change display
+	*/
+	display: none;
+
+}
+
 #next-button {
 	
 
@@ -94,19 +111,21 @@
 	height: 100%;
 	margin: 0 auto;
 	
-
-
 }
-
+#icon-size {
+	background-size: 60%;
+}
 .quiz-btn {
 	
 	text-align: center !important;
 	background-color: darkgray !important;
 	width: 100%;
 	max-width: 300px;
-	
 
+}
 
+.heading {
+	font-weight: 600;
 }
 
 #btn-grid {
@@ -185,6 +204,13 @@
 		justify-self: left;
 	}
 
+	#reset-button {
+		grid-row: 1;
+		grid-column: 2;
+		align-self: center;
+		justify-self: left;
+	}
+
 	#header-title {
 		margin-left: 1.5%;
 		font-size: 22px;
@@ -244,3 +270,6 @@
 }
 
 
+.correcttext h4 {
+	text-align: center;
+}

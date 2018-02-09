@@ -1,0 +1,45 @@
+#wrapper {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+	grid-template-areas: 
+	"a a a a"
+	"b b c c"
+	"d d e e"
+	"f f f f";
+}
+
+#heading {
+	background-color: gray;
+	font-family: avenir;
+	font-weight: 200;
+	grid-area: a;
+
+	
+
+}
+
+#heading-title {
+	margin-left: 2%;
+}
+
+#c-input-area {
+	grid-area: b;
+	justify-self: right;
+	
+
+	
+}
+
+#f-input-area {
+	grid-area: d;
+	justify-self: right;
+	
+
+}
+
+#result-area {
+
+	justify-self: center;
+}
